@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.container .content{
+    width: 1600px; 
+}
+.container .content .giris h1{
+    color: orange;
+}
+.container .content .giris .name{
+    display: flex;
+}
+.container .content .giris h3{
+    color: orange;
+}
+.container .content .giris p{
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container .content .tarif-bilgisi{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.container .tarif-bilgisi{
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    flex-direction: column;
+}
+.tarif-bilgisi .bilgi{
+    display: flex;
+}
+.tarif-bilgisi .bilgi h3{
+    width: 160px;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: orange;
+}
+.malzemeler h3{
+    margin-top: 30px;
+    color: orange;
+}
+.malzemeler ul li{
+   margin-top: 10px;
+}
+
+.tarif h3{
+    margin-top: 30px;
+    color: orange;
+}
+
+.tarif ul li{
+    margin-top: 10px;
+ }
+ 
